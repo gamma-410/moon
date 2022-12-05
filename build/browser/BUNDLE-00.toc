@@ -1,0 +1,3 @@
+([('browser',
+   '/Users/moka6652/Desktop/ブラウザ開発/Python/dist/browser',
+   'EXECUTABLE')],)
