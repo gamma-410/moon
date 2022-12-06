@@ -15,5 +15,11 @@ Python で GUI を書くときに wxPython の経験があったので、その�
 そのため全画面表示にしたとき表示領域が広がって非常に見通しが良い。  
 
 
+## Build
+ビルドするには <code>pyinstaller</code> が必要です。
+```
+pyinstaller moon.py --onefile --noconsole --icon=web/icon.png
+```
+
 ## License
 まだ未定。
