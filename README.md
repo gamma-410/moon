@@ -1,5 +1,7 @@
-<h2 align="center"><b>moon</b></h2>
-<p align="center">ミニマムなWebブラウザ</p>
+<h3 align="center"><b>moon</b></h3>
+<p align="center">
+<code>ミニマムなWebブラウザ</code>
+</p>
 <img width="1136" alt="スクリーンショット 2022-12-06 1 07 27" src="https://user-images.githubusercontent.com/88177671/205685066-d6012c26-2a77-4333-8842-c7cf5c5092b5.png">
 
 <hr>
