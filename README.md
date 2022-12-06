@@ -37,3 +37,7 @@ pyinstaller moon.py --onefile --noconsole --icon=web/icon.png
 
 ## 📝 ライセンス
 まだ未定。
+
+<br>
+<hr>
+<br>
