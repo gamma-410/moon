@@ -1,7 +1,9 @@
 :root {
     --mainColor: #1B3043;
+    --darkMoonColor: #335270;
     --subColor: #ffd875;
     --whiteColor: #eeeeee;
+    --blackColor: #272727;
     --grayColor: #c9c9c9;
 }
 
@@ -16,6 +18,11 @@ html {
 body,
 html {
     background-color: var(--whiteColor);
+}
+
+svg {
+    width: 50%;
+    height: auto;
 }
 
 h1,
@@ -132,4 +139,33 @@ select {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around
+}
+
+@media (prefers-color-scheme: dark) {
+    body,
+    html {
+        background-color: var(--blackColor);
+    }
+    #text {
+        fill: var(--whiteColor);
+    }
+    #darkMoon {
+        fill: var(--darkMoonColor);
+    }
+    .searchBtn {
+        background-color: var(--darkMoonColor);
+        color: var(--subColor);
+    }
+    .searchBtn:active {
+        background-color: var(--subColor);
+        color: var(--darkMoonColor);
+    }
+    .search_words_box {
+        background-color: #404040;
+        border: 2px solid #5f5f5f;
+        color: var(--grayColor);
+    }
+    .search_words_box:focus {
+        border: 2px solid var(--darkMoonColor);
+    }
 }
