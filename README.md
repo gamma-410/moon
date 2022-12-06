@@ -1,4 +1,4 @@
-<h3 align="center"><b>moon</b></h3>
+<h2 align="center"><b>moon</b></h2>
 <p align="center">
 <code>ミニマムなWebブラウザ</code>
 </p>
@@ -40,4 +40,3 @@ pyinstaller moon.py --onefile --noconsole --icon=web/icon.png
 
 <br>
 <hr>
-<br>
