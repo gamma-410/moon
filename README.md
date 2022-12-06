@@ -1,25 +1,37 @@
-# moon
-いろんな検索エンジンを素早く使い分けよう。
+<h2 align="center"><b>moon</b></h2>
+<p align="center">ミニマムなWebブラウザ</p>
 <img width="1136" alt="スクリーンショット 2022-12-06 1 07 27" src="https://user-images.githubusercontent.com/88177671/205685066-d6012c26-2a77-4333-8842-c7cf5c5092b5.png">
 
-## About moon.
-元々簡易的な Webkit のブラウザが欲しかった。  
-Python で GUI を書くときに wxPython の経験があったので、その技術を流用してちょっとしたアプリを作ろう、という思考にたどり着いた。
+<hr>
+<br>
 
-このブラウザの面白いところは、Google, Bing, Yahoo, DuckDuckGo といった有名な検索エンジンを素早く使い分けることができるという点。  
+## ✨ 特徴
+- Python製 (wxPython)
+- wx.html2.WebViewレンダリング
+- 検索バーが無いので見通しが良い
+- 検索エンジンを素早く使い分けることができる
 
-検索結果は検索エンジンによって異なることが多い。  
-簡単に好みのエンジンで検索できるのは割と便利だと思う。  
+<br>
+<hr>
+<br>
 
-また、余計な検索バーを用意していない点も一つの特徴だ。  
-そのため全画面表示にしたとき表示領域が広がって非常に見通しが良い。  
+## 🌱 なぜ作ったのか?
+元々、簡易的なブラウザが欲しかった。  
+Python で GUI を書くときに wxPython の利用経験があり、  
+「その技術を流用してちょっとしたアプリを作ろう」という思考にたどり着いた。
 
+<br>
+<hr>
+<br>
 
-## Build
+## 🔨 ビルド
 ビルドするには <code>pyinstaller</code> が必要です。
 ```
 pyinstaller moon.py --onefile --noconsole --icon=web/icon.png
 ```
+<br>
+<hr>
+<br>
 
-## License
+## 📝 ライセンス
 まだ未定。
