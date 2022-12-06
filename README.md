@@ -1,10 +1,17 @@
-<h2 align="center"><b>moon</b></h2>
+<h3 align="center"><b>🌘 moon</b></h3>
 <p align="center">
 ミニマムなWebブラウザ
 </p>
-<img width="1136" alt="スクリーンショット 2022-12-06 1 07 27" src="https://user-images.githubusercontent.com/88177671/205685066-d6012c26-2a77-4333-8842-c7cf5c5092b5.png">
+<table>
+    <td>
+      <img width="1412" alt="スクリーンショット 2022-12-07 2 14 47" src="https://user-images.githubusercontent.com/88177671/205978253-a6592205-0db4-4ad7-a7fd-0680d7f5a5ad.png">
+    </td>
+    <td>
+      <img width="1412" alt="スクリーンショット 2022-12-07 2 12 10" src="https://user-images.githubusercontent.com/88177671/205977783-ca7826b8-a0a5-483b-8bda-7c1b98d1c20a.png">
+    </td>
+  </table>
 
-<hr>
+
 <br>
 
 ## ✨ 特徴
@@ -14,8 +21,6 @@
 - 検索エンジンを素早く使い分けることができる
 
 <br>
-<hr>
-<br>
 
 ## 🌱 なぜ作ったのか?
 元々、簡易的なブラウザが欲しかった。  
@@ -23,20 +28,16 @@ Python で GUI を書くときに wxPython の利用経験があり、
 「その技術を流用してちょっとしたアプリを作ろう」という思考にたどり着いた。
 
 <br>
-<hr>
-<br>
 
 ## 🔨 ビルド
 ビルドするには <code>pyinstaller</code> が必要です。
 ```
 pyinstaller moon.py --onefile --noconsole --icon=web/icon.png
 ```
-<br>
-<hr>
+
 <br>
 
 ## 📝 ライセンス
 まだ未定。
 
 <br>
-<hr>
