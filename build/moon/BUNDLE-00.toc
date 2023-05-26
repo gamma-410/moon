@@ -1,1 +1,1 @@
-([('moon', '/Users/moka6652/Desktop/ブラウザ開発/Python/dist/moon', 'EXECUTABLE')],)
+([('moon', '/Users/moka6652/Downloads/moon-master/dist/moon', 'EXECUTABLE')],)

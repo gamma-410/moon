@@ -16,7 +16,7 @@ file.Append(2, 'New Window')
 file.Append(3, 'Exit')
 
 help = wx.Menu()
-help.Append(4, 'About moon')
+help.Append(4, 'README.md')
 help.Append(5, 'GitHub Repository')
 
 
@@ -39,9 +39,16 @@ def selectMenu(event):
         exit()
 
     elif event.GetId() == 4:
-        print("a")
+        newFrame = wx.Frame(None, title="moon", size=(1300, 800))
+        newBrowser = wx.html2.WebView.New(newFrame)
+        newBrowser.LoadURL("https://gamma-410.github.io/moon/")
+        newFrame.Show()
+
     elif event.GetId() == 5:
-        browser.LoadURL("https://github.com/gamma-410/moon/")
+        newFrame = wx.Frame(None, title="moon", size=(1300, 800))
+        newBrowser = wx.html2.WebView.New(newFrame)
+        newBrowser.LoadURL("https://github.com/gamma-410/moon/")
+        newFrame.Show()
 
 frame.Bind(wx.EVT_MENU, selectMenu)
 

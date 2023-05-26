@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>moon</string>
+	<key>CFBundleExecutable</key>
+	<string>moon</string>
+	<key>CFBundleIconFile</key>
+	<string>generated-c6c5c922b1d0ef9837ef115e1ec2cfebfff0fcade5a793d549b05805e50e00fe.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>moon</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>moon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
